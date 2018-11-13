@@ -10,10 +10,10 @@
 
 #### 体验 Demo
 
-体验 Demo 请参考 [QCloudCSPSample](https://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudCSPSample)。
+体验 Demo 请参考 [Sample](https://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudCSPSample)。
 
 #### 接口测试
 
-[QCloudCSPSample](https://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudCSPSample) 是体验 demo，如果您想要对所有接口进行测试，可以参考公有云的接口测试 demo [QCloudCosXmlSample](https://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudCosXmlSample)，注意请修改 com/tencent/qcloud/cosxml/sample/common/QServiceCfg.java 文件中 `CosXmlService` 的初始化部分（可以通过永久密钥授权，或者参考 QCloudCSPSample 中的授权方式）；
+[Sample](https://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudCSPSample) 是体验 demo，如果您想要对所有接口进行测试，可以参考公有云的接口测试 demo [QCloudCosXmlSample](https://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudCosXmlSample)，注意请修改 com/tencent/qcloud/cosxml/sample/common/QServiceCfg.java 文件中 `CosXmlService` 的初始化部分（可以通过永久密钥授权，或者参考 Sample 中的授权方式）；
 
 > 部分公有云接口私有云不支持，具体私有云支持的接口请参考 [接口文档](https://github.com/tencentyun/qcloud-sdk-android-samples/blob/master/QCloudCSPSample/CSP文档/接口文档.md)
